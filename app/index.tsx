@@ -8,7 +8,7 @@ export default function App() {
     <PaperProvider>
       <View style={styles.container}>
         <Text>Application started!!</Text>
-        <Link href="categories" asChild>
+        <Link href="(tabs)/products/categories" replace asChild>
           <Button mode="contained">Categories</Button>
         </Link>
       </View>

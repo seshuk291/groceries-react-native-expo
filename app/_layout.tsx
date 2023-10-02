@@ -15,7 +15,6 @@ export default function Layout() {
       <Stack.Screen
         name="(tabs)"
         options={{
-          title: "Categories",
           headerShown: false,
         }}
         

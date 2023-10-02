@@ -3,12 +3,12 @@ import React from 'react'
 import {Link} from "expo-router";
 import { Button } from 'react-native-paper';
 
-export default function products() {
+export default function categories() {
   return (
     <View>
-      <Text>products</Text>
-      <Link href="categories/product_information" asChild>
-          <Button mode="contained">Product information</Button>
+      <Text>categories!!</Text>
+      <Link href="(tabs)/products/list" asChild>
+          <Button mode="contained">Products</Button>
       </Link>
     </View>
   )

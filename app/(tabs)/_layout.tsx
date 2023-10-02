@@ -7,7 +7,7 @@ export default function Layout() {
   return (
     <Tabs>
       <Tabs.Screen
-        name="categories"
+        name="products"
         options={{
           tabBarLabel: "Categories",
           headerShown: false,
@@ -34,6 +34,14 @@ export default function Layout() {
           },
         }}
       />
+      {/* <Tabs.Screen
+        name="products"
+        options={{
+          headerShown: false,
+          tabBarLabel: "Profile",
+          href: null
+        }}
+      /> */}
     </Tabs>
   );
 }
